@@ -3,9 +3,9 @@
 # Web Site:https://www.hicairo.com
 # Telegram:https://t.me/HiaiFeng
 
-UUID=${UUID:-'e75e9789-a0e4-47df-874f-c47a905b654e'}
-VMESS_WSPATH=${VMESS_WSPATH:-'/e75e9789-a0e4-47df-874f-c47a905b654e-vmess'}
-VLESS_WSPATH=${VLESS_WSPATH:-'/e75e9789-a0e4-47df-874f-c47a905b654e-vless'}
+UUID=${UUID:-'2b525391-af27-492e-845b-7691ad040aa4'}
+VMESS_WSPATH=${VMESS_WSPATH:-'/2b525391-af27-492e-845b-7691ad040aa4-vmess'}
+VLESS_WSPATH=${VLESS_WSPATH:-'/2b525391-af27-492e-845b-7691ad040aa4-vless'}
 URL=${HOSTNAME}-8080.csb.app
 
 sed -i "s#UUID#$UUID#g;s#VMESS_WSPATH#$VMESS_WSPATH#g;s#VLESS_WSPATH#$VLESS_WSPATH#g" /etc/mysql/config.json
